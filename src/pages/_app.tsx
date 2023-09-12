@@ -7,15 +7,14 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>React Avançado - BoilerPlate</title>
+        <title>Minhas Viagens</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-521.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#06092b" />
         <meta
           name="description"
-          content="A simple project starter to work with TypeScript, React, NextJs and 
-       Styled Component"
+          content="um simples projeto mostrando lugares que quero conhecer."
         />
       </Head>
       <GlobalStyles />

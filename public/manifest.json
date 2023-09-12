@@ -1,6 +1,6 @@
 {
-    "name": "My Trips",
-    "short_name": "My Trips",
+    "name": "Minhas Viagens",
+    "short_name": "Minhas Viagens",
     "icons": [
       {
         "src": "/img/icon-192.png",
@@ -14,7 +14,7 @@
       }
     ],
     "background_color": "#06092B",
-    "description": "A simple project to show my favorite spots in the world.",
+    "description": "Um projeto simples mostrando lugares que quero conhecer.",
     "display": "fullscreen",
     "start_url": "/",
     "theme_color": "#06092B"
