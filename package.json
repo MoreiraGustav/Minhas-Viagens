@@ -9,7 +9,8 @@
     "lint": "next lint",
     "lintrc": "eslint src --max-warnings=0",
     "postinstall": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "husky": {
     "hooks": {
@@ -46,6 +47,9 @@
     "@babel/preset-env": "^7.22.15",
     "@babel/preset-react": "^7.22.15",
     "@babel/preset-typescript": "^7.22.15",
+    "@graphql-codegen/add": "^5.0.0",
+    "@graphql-codegen/cli": "5.0.0",
+    "@graphql-codegen/client-preset": "4.1.0",
     "@jest/environment": "^29.6.4",
     "@jest/globals": "^29.6.4",
     "@testing-library/jest-dom": "^6.1.3",
