@@ -27,6 +27,9 @@ export const Gallery = styled.div`
   grid-gap: var(--medium);
 
   img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção de aspecto da imagem */
+
     background: #f6f7f8;
     background-image: linear-gradient(
       to right,
